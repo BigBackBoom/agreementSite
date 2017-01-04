@@ -1,0 +1,92 @@
+div#main	{
+				height: 600px;
+				/*background: linear-gradient(#F7FA4B, #E1690C);*/
+				display: inline-block;
+				background-image: url("../img/trouble.jpg");
+				background-repeat: no-repeat;
+				margin-top: 100px;
+			}
+			
+div#cover	{
+				background-color: rgba(255,255,255, 0.6);
+				margin: 0;
+				padding: 0;
+				height: inherit;
+				width: inherit;
+			}
+
+div#copyright	{
+					height: 90px;
+					width: 100%;
+					background-color: #ffffff;
+					margin-right:auto;
+					margin-left:auto;
+					padding-top: 10px;
+					padding-bottom: 30px;
+				}
+
+div#footer_info	{
+					display: block;
+					width: 60%;
+					height: 60%;
+					max-width: -moz-max-content;
+					max-width: -webkit-max-content;
+					max-width: max-content;
+					margin-right:auto;
+					margin-left:auto;
+				}
+
+div.footer_section	{
+						display: inline-block;
+						width: 150px;
+						height: 130px;
+						margin-top: 10px;
+						margin-right:20px;
+						vertical-align: top;
+					}
+
+li.footer_list		{	
+						margin-left: 10px;
+						margin-top: 5px;
+						color: white;
+					}
+
+div#button_section	{width: 140px;
+					margin-top: 30px;}
+
+
+
+h2			{
+					font-size: 35px;
+					margin-top: 10px;
+					margin-left: 0px;
+					text-align: center;
+					font-family: "Roboto", Corbel, Avenir, "Lucida Grande", "Lucida Sans", sans-serif;
+					display: none;
+			}
+			
+p.main			{
+					font-size: 25px;
+					margin-top: 20px;
+					margin-left: 0px;
+					text-align: center;
+					font-family: "Roboto", Corbel, Avenir, "Lucida Grande", "Lucida Sans", sans-serif;
+					display: none;
+			}
+
+p.footer	{
+					font-size: 14px;
+					margin-top: 10px;
+					margin-left: 0px;
+					text-align: center;
+					display: block;
+					font-family: "Roboto", Corbel, Avenir, "Lucida Grande", "Lucida Sans", sans-serif;
+			}
+
+.btn-default	{
+					background-color: red;
+				}
+				
+img				{display:block;
+				margin-left:auto;
+				margin-right:auto;}

@@ -1,0 +1,160 @@
+/*********************************************************
+* サイトようCSS
+*
+***********************************************************/
+
+/*********************************************************
+* header related
+***********************************************************/
+header		{
+				height: 100px;
+				padding: 20px;
+				width: 100%;
+				background-color: rgba(0255,255,255, 0.6);/*#e1e1e1*/;
+				position: fixed;
+				display: block;
+			}
+			
+img.header	{
+				float:left;
+				margin-top: 10px;
+			}
+p.header-meta	{
+					font-size: 15px;
+					margin-top: 10px;
+					margin-left: 0px;
+					text-align: center;
+					font-family: "Roboto", Corbel, Avenir, "Lucida Grande", "Lucida Sans", sans-serif;
+				}
+
+ul.header		{
+					float: right;
+				}
+
+li.header		{
+					width: 150px;
+					display: inline-block;
+					float: right;
+				}
+
+a.header:link	{
+					color: #333;
+				}
+a.header:visited 	{
+    					color: #333;
+					}
+a.header:hover	{
+					color: #606060;
+				}
+
+a.header:active {
+    				color: #333;
+				}
+
+
+/*********************************************************
+* general settings for tags
+***********************************************************/
+
+button.default {
+	background-color:#E1690C;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	display:none;
+	font-family: "Roboto", Corbel, Avenir, "Lucida Grande", "Lucida Sans", sans-serif;
+
+}
+
+button.default:hover {
+	background-color:#E1690C;
+}
+button.default:active {
+	position:relative;
+}
+
+
+.container	{
+				width: 100%;
+				height: 60px;
+				vertical-align: center;
+			}
+
+/*********************************************************
+* body related
+***********************************************************/
+
+body		{
+				height: 100%;
+				width: 100%;
+				
+			}
+			
+div#main	{
+				height: 550px;
+				width: 100%;
+				/*background: linear-gradient(#F7FA4B, #E1690C);*/
+				display: inline-block;
+			}
+
+
+/*********************************************************
+* footer related
+***********************************************************/
+footer		{
+				height: 300px;
+				width: 100%;
+				background-color: #E1690C/*#e1e1e1*/;
+				position:absolute;
+   				bottom:0;
+			}
+
+div#copyright	{
+					height: 90px;
+					width: 100%;
+					background-color: #ffffff;
+					margin-right:auto;
+					margin-left:auto;
+					padding-top: 10px;
+					padding-bottom: 30px;
+				}
+
+div#footer_info	{
+					display: block;
+					width: 60%;
+					height: 60%;
+					max-width: -moz-max-content;
+					max-width: -webkit-max-content;
+					max-width: max-content;
+					margin-right:auto;
+					margin-left:auto;
+				}
+
+div.footer_section	{
+						display: inline-block;
+						width: 150px;
+						height: 130px;
+						margin-top: 10px;
+						margin-right:20px;
+						vertical-align: top;
+					}
+
+li.footer_list		{	
+						margin-left: 10px;
+						margin-top: 5px;
+						color: white;
+					}
+
+
+
+
+
+/***********************************************************/
+

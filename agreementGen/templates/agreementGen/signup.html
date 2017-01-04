@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+
+<!-- header section-->
+<head>
+	{% load staticfiles %}
+	<meta charset="utf-8">
+	<title>medib@greement</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.1/angular.min.js"></script>
+	
+	
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+ 	 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400italic,700italic,300,700,400&amp;subset=latin">
+	<link rel="stylesheet" type="text/css" href="{% static "agreementGen/css/reset.css" %}">
+	<link rel="stylesheet" type="text/css" href="{% static "agreementGen/css/template.css" %}">
+	<link rel="stylesheet" type="text/css" href="{% static "agreementGen/css/signup.css" %}">
+
+	<script>
+		$(document).ready(function(){
+  			$("h2").fadeIn(1500, function(){
+  				$("p.main").fadeIn(1000, function(){
+  					$("button.default").fadeIn(1000, function(){
+  			
+  					});
+  				});
+  			
+  			});
+		});
+	</script>
+</head>
+
+<!-- header section end-->
+
+<!-- body section-->
+<body>
+
+<header>
+	<div class="container">
+		<img class="header" src="{% static "agreementGen/img/logo.png" %}" alt="logo" alt="logo">
+		<ul class="header">
+			<a class="header" href="#"><li class="header"><p class="header-meta">News</p><p class="header-meta">ニュース</p></li></a>
+			<a class="header" href="#"><li class="header"><p class="header-meta" style="">Documentation</p><p class="header-meta">ドキュメント</p></li></a>
+			<a class="header" href="#"><li class="header"><p class="header-meta">Login</p><p class="header-meta">ログイン</p></li></a>
+			<a class="header" href="#"><li class="header"><p class="header-meta">About</p><p class="header-meta">サービス概要</p></li></a>
+		</ul>
+	</div>
+</header>
+
+<!-- main area of the page-->
+<div id="main" >
+	<form>
+	</form>
+	
+</div>
+
+<footer>
+	
+	<div id="footer_info" >
+		<div class="footer_section">
+			<p style="color: white;">ニュース</p>
+			<hr style="margin:0px; background-color: #aaaaaa; border: none; height: 1px;">
+			<ul>
+				<li class="footer_list">ニュースリリース</li>
+				<li class="footer_list">2015</li>
+				<li class="footer_list">2014</li>
+				<li class="footer_list">2013</li>
+			</ul>
+		</div>
+		
+		<div class="footer_section">
+			<p style="color: white;">サービスについて</p>
+			<hr style="margin:0px; background-color: #aaaaaa; border: none; height: 1px;">
+			<ul>
+				<li class="footer_list">メディーバグリーメントとは？</li>
+				<li class="footer_list">利用規約</li>
+				<li class="footer_list">プラン料金</li>
+			</ul>
+		</div>
+		
+		<div class="footer_section">
+			<p style="color: white;">サポート</p>
+			<hr style="margin:0px; background-color: #aaaaaa; border: none; height: 1px;">
+			<ul>
+				<li class="footer_list">ヘルプセンター</li>
+				<li class="footer_list">Q＆A</li>
+				<li class="footer_list">お問い合わせ</li>
+			</ul>
+		</div>
+		
+		
+	</div>
+
+</footer>
+
+</body>
+
+</html>
