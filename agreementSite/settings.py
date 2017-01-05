@@ -25,7 +25,7 @@ SECRET_KEY = 'zt_!pyred2!nc_&c=d3z)vie3ni@w-&!$0_#6&pw3z_@ied6mx'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0', '10.0.2.15', '192.168.0.224']
 
 
 # Application definition
@@ -77,11 +77,11 @@ WSGI_APPLICATION = 'agreementSite.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'agreementDB',
-	'USER': 'root',
-	'PASSWORD': '1a2b3c4d5e',
-	'HOST': '',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'agreementsite',
+	'USER': 'agreementsiteuser',
+	'PASSWORD': 'osanai-kikuchi',
+	'HOST': 'localhost',
 	'PORT': '',
     }
 }
